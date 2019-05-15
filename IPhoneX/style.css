@@ -1,0 +1,138 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+div.container{
+height: 100vh;
+width: 100%;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+div.container>div.right_bg{
+height: 100%;
+width: 50%;
+display: block;
+margin: 0;
+margin-left: 50%;
+background: #673ab7;
+}
+
+div.container>div.des_box{
+height: 450px;
+width: 700px;
+display: block;
+position: fixed;
+top: calc((100vh - 450px) / 2);
+left: calc((100% - 700px) / 2);
+background: #fff;
+}
+div.container>div.des_box>div.des_box_left_bg{
+height: 100%;
+width: 50%;
+display: block;
+margin: 0;
+background: #673ab7;
+}
+div.container>div.des_box>div.image{
+height: 100%;
+width: 50%;
+display: block;
+position: relative;
+top: -100%;
+bottom: 0;
+left: 0;
+box-sizing: border-box;
+padding: 70px 35px;
+}
+div.container>div.des_box>div.image>img{
+height: 100%;
+width: 100%;
+display: block;
+margin: 0;
+padding: 0;
+}
+div.container>div.des_box>div.des{
+height: 100%;
+width: 50%;
+display: block;
+position: relative;
+top: -200%;
+left: 50%;
+}
+div.container>div.des_box>div.des>h2{
+color: #ccc;
+text-align: left;
+margin-left: 30px;
+font-family: Calibri;
+font-size: 35px;
+line-height: 25px;
+transform: translateY(20px);
+}
+div.container>div.des_box>div.des>p{
+height: fit-content;
+width: 100%;
+text-align: left;
+color: #9a9a9a;
+font-family: Calibri;
+font-size: 16px;
+font-weight: 400;
+box-sizing: border-box;
+padding: 20px;
+}
+div.container>div.des_box>div.des>h3{
+text-align: left;
+color: #909090;
+font-family: Calibri;
+font-size: 30px;
+margin-left: 30px;
+margin-top: 30px;
+}
+div.container>div.des_box>div.des>button{
+height: 40px;
+width: 90px;
+display: block;
+background: #673ab7;
+border: 0 solid transparent;
+color: #fff;
+font-size: 15px;
+font-family: Calibri;
+text-transform: uppercase;
+margin-left: 70%;
+margin-top: -70px;
+border-radius: 3px;
+}
+div.container>div.des_box>div.des>button:hover{
+background: #fff;
+color: #673ab7;
+cursor: pointer;
+border: 1px solid #673ab7;
+}
+
+div.logo{
+height: 50px;
+width: 200px;
+display: inline-flex;
+position: absolute;
+top: 20px;
+left: 30px;
+}
+div.logo>img{
+height: 100%;
+width: 80px;
+display: block;
+margin: 0;
+padding: 0;
+}
+div.logo>h2{
+color: #333;
+text-align: left;
+margin-left: -10px;
+line-height: 45px;
+font-size: 20px;
+font-family: Calibri;
+}
